@@ -16,7 +16,4 @@ List<MenuInfo> menuItems = [
       title: 'Stopwatch', imageSource: 'assets/stopwatch_icon.png')
 ];
 
-List<AlarmInfo> alarms = [
-  AlarmInfo(DateTime.now().add(Duration(hours: 1)), discription: 'Office',gradientColors: GradientColors.sky),
-  AlarmInfo(DateTime.now().add(Duration(hours: 2)), discription: 'Sport',gradientColors: GradientColors.sunset),
-];
+
